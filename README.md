@@ -1,7 +1,5 @@
 # Green Technology Innovation
 
-The **Green Technology Innovation** is a comprehensive, user-focused digital system...
-
 The **Green Technology Innovation** is a comprehensive, user-focused digital system designed to support and promote **environmental sustainability** through the integration of **modern, scalable, and environmentally conscious technologies**. Developed with both innovation and ecological responsibility in mind, this platform empowers users—from individuals to larger organizations—to make informed, data-driven decisions that contribute to the protection and restoration of the environment.
 
 ## Vision and Purpose
