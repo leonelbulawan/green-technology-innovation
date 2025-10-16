@@ -26,8 +26,8 @@ For inquiries, suggestions, or collaboration opportunities, please contact us at
 
 ## Developed By
 
-- **Junel E. Azares**  
-- **Leonel C. Bulawan**  
-- **Kean Jayvee B. Gito**  
-- **KC F. Oseo**  
-- **Rollin M. Furio**
+- Junel E. Azares  
+- Leonel C. Bulawan
+- Kean Jayvee B. Gito
+- KC F. Oseo**  
+- Rollin M. Furio
