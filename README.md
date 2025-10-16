@@ -1,4 +1,4 @@
-<h1 style="color:#28a745;">Green Technology Innovation</h1>
+# Green Technology Innovation
 
 The **Green Technology Innovation** is a comprehensive, user-focused digital system...
 
@@ -6,9 +6,7 @@ The **Green Technology Innovation** is a comprehensive, user-focused digital sys
 
 ## Vision and Purpose
 
-In an era where **climate change**, **pollution**, and **resource depletion** are increasingly urgent global challenges, the need for sustainable solutions has never been greater. The Green Technology Innovation Platform was built in response to these issues, with a vision of making sustainability **practical**, **accessible**, and **actionable** for all.
-
-Its core purpose is to **bridge the gap between environmental awareness and tangible action** by offering digital tools that **educate**, **guide**, and **encourage** users to actively reduce their ecological footprint. The platform is designed to inspire **everyday actions** that, when scaled across communities, can lead to **significant environmental benefits**.
+In an era where **climate change**, **pollution**, and **resource depletion** are increasingly urgent global challenges, the need for sustainable solutions has never been greater. The Green Technology Innovation Platform was built in response to these issues, with a vision of making sustainability **practical**, **accessible**, and **actionable** for all. Its core purpose is to **bridge the gap between environmental awareness and tangible action** by offering digital tools that **educate**, **guide**, and **encourage** users to actively reduce their ecological footprint. The platform is designed to inspire **everyday actions** that, when scaled across communities, can lead to **significant environmental benefits**.
 
 ## Key Features
 
