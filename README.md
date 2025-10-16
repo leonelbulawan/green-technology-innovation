@@ -29,5 +29,5 @@ For inquiries, suggestions, or collaboration opportunities, please contact us at
 - Junel E. Azares  
 - Leonel C. Bulawan
 - Kean Jayvee B. Gito
-- KC F. Oseo**  
+- KC F. Oseo 
 - Rollin M. Furio
