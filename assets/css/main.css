@@ -59,7 +59,7 @@
   --surface-color: #80c792;
 }
 
-/* Smooth scroll */
+
 :root {
   scroll-behavior: smooth;
 }
@@ -67,6 +67,7 @@
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
+
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -96,6 +97,7 @@ h6 {
 
 /* Pulsating Play Button
 ------------------------------*/
+
 .pulsating-play-btn {
   width: 94px;
   height: 94px;
@@ -175,6 +177,7 @@ h6 {
 
 /* PHP Email Form Messages
 ------------------------------*/
+
 .php-email-form .error-message {
   display: none;
   background: #df1529;
@@ -228,6 +231,7 @@ h6 {
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
+
 .header {
   color: var(--default-color);
   transition: all 0.5s;
@@ -309,10 +313,186 @@ h6 {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
+.renewable-energy .header {
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.sustainable-agriculture .header {
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.green-building .header {
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.echo-innovation-research .header {
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.waste-and-recycling-management .header {
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.smart-transportation .header{
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.climate-action-technologies .header{
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.water-conservation-systems .header{
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.green-education-and-awareness .header{
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.carbon-footprint-calculator .header{
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.interactive-recycling-guide .header{
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.guide-card{
+  background-color: var(--surface-color);
+  padding: 20px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-lifestyle-tracker .header{
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.terms-of-service .header {
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-policy .header {
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+/*--------------------------------------------------------------
+# Terms of Service Section
+--------------------------------------------------------------*/
+
+.privacy-policy {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #ffffff;
+}
+      
+.privacy-policy-content {
+  padding: 50px 10%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+      
+.content-box {
+  background-color: white;
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  padding: 30px 40px; 
+  margin-bottom: 30px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
+}
+
+.privacy-policy-content .heading-1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 32px;
+  position: relative;
+  font-weight: normal; 
+}
+      
+.privacy-policy-content .heading-1::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  margin: 5px auto 30px;
+}
+      
+.content-box .heading-2 {
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 15px; 
+  font-size: 24px;
+  font-weight: normal; 
+}
+      
+.content-box .text-1, .content-box .unordered-1 {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/*--------------------------------------------------------------
+# Privacy Policy Section
+--------------------------------------------------------------*/
+      
+.terms-of-service {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #ffffff; 
+}
+
+.terms-of-service-content {
+  padding: 50px 10%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+      
+.content-box-1 {
+  background-color: white; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  padding: 30px 40px; 
+  margin-bottom: 30px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
+}
+
+.terms-of-service-content .heading-4 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px; 
+  font-size: 32px;
+  position: relative;
+  font-weight: normal;
+}
+      
+.terms-of-service-content .heading-4::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  margin: 5px auto 30px; 
+}
+      
+.content-box-1 .heading-5 {
+  color: #000000;
+  margin-top: 0; 
+  margin-bottom: 15px; 
+  font-size: 24px;
+  font-weight: normal;
+}
+      
+.content-box-1 .paragraph-4, .content-box .unordered-5 {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/* Navmenu - Desktop */
+
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
@@ -419,7 +599,7 @@ h6 {
   }
 }
 
-/* Navmenu - Mobile */
+
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
     color: var(--nav-color);
@@ -549,6 +729,7 @@ h6 {
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
+
 .footer {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -669,6 +850,7 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
+
 #preloader {
   position: fixed;
   inset: 0;
@@ -704,6 +886,7 @@ h6 {
 /*--------------------------------------------------------------
 # Scroll Top Button
 --------------------------------------------------------------*/
+
 .scroll-top {
   position: fixed;
   visibility: hidden;
@@ -737,6 +920,7 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
+
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
@@ -746,6 +930,7 @@ h6 {
 /*--------------------------------------------------------------
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
+
 .page-title {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -790,6 +975,7 @@ h6 {
 /*--------------------------------------------------------------
 # Global Sections
 --------------------------------------------------------------*/
+
 section,
 .section {
   color: var(--default-color);
@@ -810,6 +996,7 @@ section,
 /*--------------------------------------------------------------
 # Global Section Titles
 --------------------------------------------------------------*/
+
 .section-title {
   text-align: center;
   padding-bottom: 60px;
@@ -857,6 +1044,7 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 .hero {
   padding: 0;
 }
@@ -932,6 +1120,254 @@ section,
   }
 }
 
+
+.calc-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #34c759; 
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(52, 199, 89, 0.3);
+}
+
+.calc-btn:hover {
+  background-color: #2fa84f;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(47, 168, 79, 0.4);
+  transform: translateY(-3px);
+}
+
+.track-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #34c759; 
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(52, 199, 89, 0.3);
+}
+
+
+.track-btn:hover {
+  background-color: #2fa84f;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(47, 168, 79, 0.4);
+  transform: translateY(-3px);
+}
+
+
+.btn-involve {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #34c759; 
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(52, 199, 89, 0.3);
+}
+
+
+.btn-involve:hover {
+  background-color: #2fa84f;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(47, 168, 79, 0.4);
+  transform: translateY(-3px);
+}
+
+.btn-involve-1 {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #34c759; 
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(52, 199, 89, 0.3);
+}
+
+.btn-involve-1:hover {
+  background-color: #2fa84f;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(47, 168, 79, 0.4);
+  transform: translateY(-3px);
+}
+
+
+.btn-involve-2 {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #34c759; 
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(52, 199, 89, 0.3);
+}
+
+.btn-involve-2:hover {
+  background-color: #2fa84f;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(47, 168, 79, 0.4);
+  transform: translateY(-3px);
+}
+
+.btn-network {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #34c759; 
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(52, 199, 89, 0.3);
+}
+
+.btn-network:hover {
+  background-color: #2fa84f;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(47, 168, 79, 0.4);
+  transform: translateY(-3px);
+}
+
+.btn-initiative {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #34c759; 
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(52, 199, 89, 0.3);
+}
+
+.btn-initiative:hover {
+  background-color: #2fa84f;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(47, 168, 79, 0.4);
+  transform: translateY(-3px);
+}
+
+.btn-smart {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #34c759; 
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(52, 199, 89, 0.3);
+}
+
+.btn-smart:hover {
+  background-color: #2fa84f;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(47, 168, 79, 0.4);
+  transform: translateY(-3px);
+}
+
+.btn-innovation {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #34c759; 
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(52, 199, 89, 0.3);
+}
+
+.btn-innovation:hover {
+  background-color: #2fa84f;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(47, 168, 79, 0.4);
+  transform: translateY(-3px);
+}
+
+.btn-sustainability {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #34c759; 
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(52, 199, 89, 0.3);
+}
+
+.btn-sustainability:hover {
+  background-color: #2fa84f;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(47, 168, 79, 0.4);
+  transform: translateY(-3px);
+}
+
+.btn-movement {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #34c759; 
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(52, 199, 89, 0.3);
+}
+
+.btn-movement:hover {
+  background-color: #2fa84f;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(47, 168, 79, 0.4);
+  transform: translateY(-3px);
+}
+
+
 .hero .btn-get-started {
   color: var(--contrast-color);
   background: var(--accent-color);
@@ -948,7 +1384,10 @@ section,
 }
 
 .hero .btn-get-started:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background-color: #2fa84f;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(47, 168, 79, 0.4);
+  transform: translateY(-3px);
 }
 
 .hero .carousel-control-prev,
@@ -1018,6 +1457,7 @@ section,
 /*--------------------------------------------------------------
 # Featured Services Section
 --------------------------------------------------------------*/
+
 .featured-services {
   padding: 30px 0;
 }
@@ -1066,6 +1506,7 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+
 .about .content h3 {
   font-size: 1.75rem;
   font-weight: 700;
@@ -1101,6 +1542,7 @@ section,
 /*--------------------------------------------------------------
 # Why Us Section
 --------------------------------------------------------------*/
+
 .why-us .card {
   background-color: var(--surface-color);
   color: var(--default-color);
@@ -1130,6 +1572,12 @@ section,
   font-size: 15px;
   margin: 0;
   padding: 0;
+}
+
+.guide-card{
+  background-color: var(--surface-color);
+  padding: 20px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
 /*--------------------------------------------------------------
@@ -1169,6 +1617,7 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+
 .services .service-item {
   background-color: var(--surface-color);
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
@@ -1251,6 +1700,7 @@ section,
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
+
 .call-to-action {
   padding: 120px 0;
   position: relative;
@@ -1294,6 +1744,7 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
+
 .portfolio .portfolio-filters {
   padding: 0 0 20px 0;
   margin: 0 auto;
@@ -1382,6 +1833,7 @@ section,
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
+
 .team .member {
   background-color: var(--surface-color);
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
@@ -1438,6 +1890,7 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+
 .contact .info-wrap {
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -1539,6 +1992,7 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -1714,6 +2168,7 @@ section,
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
+
 .service-details .service-box {
   background-color: var(--surface-color);
   padding: 20px;
